@@ -18,6 +18,8 @@ img {
     display: block;
 }
 
+p ( font-size: 1.2em;)
+
 .page-header {
     border-bottom: 1px solid #ECECEC;
 
@@ -44,6 +46,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .header-box {
     display: flex;
@@ -178,11 +181,8 @@ body {
     padding-bottom: 32px;
     display: inline-block;
 }
-.page-navigation a:hover {
+.page-navigation a:hover, .page-navigation a:focus {
     color: var(--accent-color);
-}
-.page-navigation a:focus {
-    color: var(--title-color);
 }
 
 .contacts-li {
@@ -235,6 +235,7 @@ body {
 
 
 .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0,4)), url(../images/backgraund.jpg);
     background: #2F303A;
     text-align: center;
     display: flex;
@@ -551,7 +552,7 @@ address {
 
 
 
-.social-link:hover,:focus {
+.social-link:hover, .social-link:focus {
     background: var(--accent-color);
     fill: #FFFFFF;
 }
@@ -586,10 +587,8 @@ address {
     margin-right: 0px;
 }
 
-.footer-link li:focus {
+.footer-link:focus, .footer-link:hover {
     background-color: var(--accent-color);
 }
 
-.footer-linkt li:hover {
-    background-color: var(--accent-color);
-}
+
