@@ -74,6 +74,14 @@ p ( font-size: 1.2em;)
     text-decoration: none;
 }
 
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:focus, .portfolio-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .icon-envelope {
     color: #757575;
     margin-right: 10px;
@@ -212,9 +220,10 @@ body {
 }
 
 .button-port:hover, .button-port:focus {
-    background: #188CE8;
     color: white;
     box-shadow: #757575;
+    background: #2196F3;
+    
 }
 
 .button-port {
@@ -231,6 +240,7 @@ body {
     border-radius: 4px;
     border: 0px;
     padding: 6px 22px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -378,6 +388,10 @@ h1 {
 
 .footer-contacts-li a {
     color: rgba(255,255,255,0.6);
+}
+
+.footer-contacts-li {
+    margin-top: 9px;
 }
 
 .footer-contacts-li a:hover {
@@ -541,7 +555,7 @@ address {
 .social-link {
     width: 100%;
     height: 100%;
-    fill: #AFB1B8;
+    fill: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -556,7 +570,7 @@ address {
 
 .social-link:hover, .social-link:focus {
     background: var(--accent-color);
-    fill: #FFFFFF;
+    fill: #FFFF;
 }
 
 
