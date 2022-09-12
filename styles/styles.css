@@ -227,6 +227,7 @@ body {
         background-color: #2196F3;
         box-shadow: 0px 3px 1px rgba(0 0 0 / 10%),
         0px 1px 2px rgba(0 0 0 / 8%), 0px 2px 2px rgba(0 0 0 / 12%);
+        color: #FFFF;
 }
 
 .button-port {
@@ -422,6 +423,14 @@ h1 {
 
 .footer-join {
     text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 address {
@@ -572,7 +581,7 @@ address {
 
 
 .social-link:hover, .social-link:focus {
-    background: var(--accent-color);
+    background: #2196F3;;
     fill: #FFFF;
 }
 
